@@ -1,0 +1,27 @@
+{
+  "visualization": {
+    "id": "wso2_help_tooltip",
+    "label": "WSO2 Help Tooltip",
+    "description": "Minimal help '?' icon with hover tooltip. No external logging, no data export.",
+    "version": "1.0.0",
+    "library": "index.js",
+    "resources": {
+      "js": ["index.js"],
+      "css": []
+    }
+  },
+  "data": {
+    "requiredFields": [
+      {
+        "id": "tooltipText",
+        "name": "Tooltip Text",
+        "type": "TEXT",
+        "concept": "DIMENSION"
+      }
+    ],
+    "optionalFields": []
+  },
+  "style": {
+    "showAdvanced": false
+  }
+}
